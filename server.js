@@ -36,7 +36,7 @@ app.post('/api/contact', async (req, res) => {
 
   const msg = {
     to: 'info@bluesci.ca',
-    from: 'moehaija@gmail.com',
+    from: 'info@bluesci.ca',
     replyTo: email,
     subject: `New Contact Form Submission from ${name}`,
     text: `
